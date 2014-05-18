@@ -3,19 +3,19 @@
 
 <web-app>
     <servlet>
-        <servlet-name>ControllerServlet</servlet-name>
-        <servlet-class>controller.ControllerServlet</servlet-class>
+        <servlet-name>DeliverServlet</servlet-name>
+        <servlet-class>servlet.DeliverServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ControllerServlet</servlet-name>
-        <url-pattern>/servlet</url-pattern>
+        <servlet-name>DeliverServlet</servlet-name>
+        <url-pattern>/deliver</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>HeartBeatServlet</servlet-name>
-        <servlet-class>controller.HeartBeatServlet</servlet-class>
+        <servlet-class>servlet.HeartBeatServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HeartBeatServlet</servlet-name>
-        <url-pattern>/hb</url-pattern>
+        <url-pattern>/heartbeat</url-pattern>
     </servlet-mapping>
 </web-app>
