@@ -9,7 +9,6 @@ import java.io.IOException;
 /**
  * Controller.
  */
-//@WebServlet("/servlet")
 public class ControllerServlet extends HttpServlet {
 
     @Override
