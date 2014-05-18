@@ -4,7 +4,7 @@
 <web-app>
     <servlet>
         <servlet-name>ControllerServlet</servlet-name>
-        <servlet-class>controller.ControllerServlet</servlet-class>
+        <servlet-class>servlet.ControllerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControllerServlet</servlet-name>
@@ -12,10 +12,10 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>HeartBeatServlet</servlet-name>
-        <servlet-class>controller.HeartBeatServlet</servlet-class>
+        <servlet-class>servlet.HeartBeatServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HeartBeatServlet</servlet-name>
-        <url-pattern>/hb</url-pattern>
+        <url-pattern>/heartbeat</url-pattern>
     </servlet-mapping>
 </web-app>
