@@ -21,7 +21,7 @@ public class DeliverServlet extends HttpServlet {
         DeliverRequest reqObj = getRequestInfo(req);
 
         // レスポンス生成
-        Deliver deliver = new Deliver();
+        Deliver deliver = new Deliver();// TODO FactoryやDIでDaoなど依存関係を注入しつつインスタンス生成した方が良い。
         DeliverResponse respObj = deliver.getResponseContent(reqObj);
 
         // レスポンス書き込み

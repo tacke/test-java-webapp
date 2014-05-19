@@ -22,7 +22,7 @@ public class DeliverTest {
         @Test
         public void pattern1() throws Exception {
             DeliverRequest req = new DeliverRequest("12345");
-            assertThat(target.getContent(req), is("HIT"));
+            assertThat(target.getContent(req), is("content1"));
         }
 
         @Test
