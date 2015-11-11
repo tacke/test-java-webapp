@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/tacke/test-java-webapp.svg?style=svg)](https://circleci.com/gh/tacke/test-java-webapp)
+
 # java-test
 
 ## branch: servlet-2.x
