@@ -10,7 +10,7 @@ public class ContentDao extends BaseDao {
 
     public List<Content> get(String id) {
         // TODO DBアクセスなど実装．
-        List<Content> list = new ArrayList();
+        List<Content> list = new ArrayList<>();
 
         if (StringUtils.equals(id, "12345")) {
             list.add(new Content("id1", "content1", new Date()));

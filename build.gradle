@@ -1,6 +1,9 @@
+apply plugin: 'java'
 apply plugin: 'jetty'
 
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 version = '1.0'
 
 repositories {
@@ -11,4 +14,8 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.3.1'
     providedCompile 'javax.servlet:servlet-api:2.5'
     testCompile 'junit:junit:4.11'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
 }
